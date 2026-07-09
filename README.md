@@ -157,6 +157,11 @@ jupyter notebook
 # 👨‍💻 Autor
 
 **Victor Schiavone**
+**Juliana Bahia**
+**Guilherme Ledier**
+**Gisele Domingues**
+**Gisele Domingues**
+
 
 Projeto desenvolvido como parte do **Tech Challenge – Fase 2** da Pós-Tech em Data Analytics da **FIAP**.
 
