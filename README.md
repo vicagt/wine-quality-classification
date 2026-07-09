@@ -156,10 +156,10 @@ jupyter notebook
 
 # 👨‍💻 Autor
 
-**Victor Schiavone**
-**Juliana Bahia**
-**Guilherme Ledier**
-**Gisele Domingues**
+**Victor Schiavone**,
+**Juliana Bahia**,
+**Guilherme Ledier**,
+**Gisele Domingues**,
 **Gisele Domingues**
 
 
