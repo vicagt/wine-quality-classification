@@ -1,5 +1,5 @@
-Tech Challenge Fase 2 - Classificação da qualidade de vinhos com Machine Learning
-# 🍷 Wine Quality Classification
+# 🍷 Wine Quality Classification using Machine Learning
+### Tech Challenge – Fase 2 | FIAP Pós-Tech Data Analytics
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikitlearn)
@@ -8,15 +8,32 @@ Tech Challenge Fase 2 - Classificação da qualidade de vinhos com Machine Learn
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![FIAP](https://img.shields.io/badge/FIAP-Tech%20Challenge-red)
 
-Projeto desenvolvido como parte do **Tech Challenge – Fase 2 (FIAP)** com o objetivo de construir e avaliar modelos de Machine Learning capazes de classificar vinhos em duas categorias de qualidade a partir de suas características físico-químicas.
+Projeto desenvolvido como parte do **Tech Challenge – Fase 2** da Pós-Tech em **Data Analytics da FIAP**, com o objetivo de construir e avaliar modelos de Machine Learning capazes de classificar vinhos em duas categorias de qualidade utilizando características físico-químicas.
+
+---
+
+# 🎥 Vídeo Executivo
+
+A apresentação executiva do projeto está disponível no YouTube:
+
+▶️ **Assista ao vídeo:**  
+https://youtu.be/Aeo838bYFR8
 
 ---
 
 # 📖 Sobre o Projeto
 
-Este projeto contempla todas as etapas de um pipeline de Machine Learning supervisionado, incluindo análise exploratória dos dados (EDA), pré-processamento, engenharia de atributos, treinamento, avaliação e comparação de modelos de classificação.
+Este projeto contempla todas as etapas de um pipeline de Machine Learning supervisionado, incluindo:
 
-Foram desenvolvidos dois algoritmos de Machine Learning — **Logistic Regression** e **Random Forest** — com o objetivo de identificar vinhos de alta qualidade a partir de variáveis físico-químicas.
+- Análise Exploratória dos Dados (EDA);
+- Pré-processamento;
+- Engenharia de atributos;
+- Treinamento de modelos;
+- Avaliação de desempenho;
+- Comparação entre algoritmos;
+- Interpretação dos resultados.
+
+Foram desenvolvidos dois algoritmos de Machine Learning — **Logistic Regression** e **Random Forest** — para identificar vinhos de alta qualidade a partir de variáveis físico-químicas.
 
 ---
 
@@ -26,8 +43,8 @@ Classificar vinhos em duas categorias de qualidade.
 
 | Qualidade Original | Classe |
 |-------------------|--------|
-| ≥ 7 | Alta qualidade (1) |
-| < 7 | Baixa/Média qualidade (0) |
+| ≥ 7 | Alta Qualidade (1) |
+| < 7 | Baixa/Média Qualidade (0) |
 
 A variável original **quality** foi transformada em uma variável binária denominada **high_quality**, permitindo tratar o problema como uma tarefa de classificação supervisionada.
 
@@ -72,9 +89,9 @@ Entre as variáveis disponíveis destacam-se:
 
 O desenvolvimento foi dividido nas seguintes etapas:
 
-1. Análise Exploratória dos Dados (EDA)
-2. Visualização estatística
-3. Criação da variável alvo (Classificação Binária)
+1. Compreensão do problema
+2. Análise Exploratória dos Dados (EDA)
+3. Transformação da variável alvo (Classificação Binária)
 4. Pré-processamento dos dados
 5. Separação em conjuntos de treino e teste
 6. Padronização das variáveis utilizando StandardScaler
@@ -98,9 +115,15 @@ O desenvolvimento foi dividido nas seguintes etapas:
 
 # 🏆 Modelo Selecionado
 
-O modelo **Random Forest** apresentou o melhor desempenho geral, obtendo maiores valores para Accuracy, Precision, F1-Score e AUC.
+O modelo **Random Forest** apresentou o melhor desempenho geral, obtendo os maiores valores para:
 
-Além do melhor desempenho preditivo, o modelo permitiu identificar as variáveis mais importantes para a classificação dos vinhos, destacando principalmente:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- AUC
+
+Além do melhor desempenho preditivo, o modelo permitiu identificar as variáveis mais importantes para a classificação dos vinhos:
 
 - Alcohol
 - Sulphates
@@ -111,9 +134,9 @@ Além do melhor desempenho preditivo, o modelo permitiu identificar as variávei
 # 💡 Principais Insights
 
 - O conjunto de dados apresentou desbalanceamento entre as classes.
-- O teor alcoólico foi a variável mais importante para o modelo Random Forest.
-- A utilização conjunta de Accuracy, Precision, Recall, F1-Score e AUC proporcionou uma avaliação mais completa dos modelos.
-- A análise de importância das variáveis reforçou o entendimento dos fatores físico-químicos mais relevantes para a classificação da qualidade dos vinhos.
+- O teor alcoólico destacou-se como a variável mais importante para o modelo Random Forest.
+- A utilização conjunta de Accuracy, Precision, Recall, F1-Score e AUC proporcionou uma avaliação mais robusta do desempenho dos modelos.
+- A análise de importância das variáveis reforçou os padrões identificados durante a Análise Exploratória dos Dados.
 - O modelo Random Forest apresentou desempenho superior ao da Logistic Regression para o problema proposto.
 
 ---
@@ -131,6 +154,7 @@ wine-quality-classification/
 │
 ├── resultados/
 │   ├── Apresentacao_Executiva.pdf
+│   ├── Apresentacao_Tech_Challenge_Fase_2.pptx
 │   └── comparacao_modelos.csv
 │
 ├── requirements.txt
@@ -154,19 +178,18 @@ jupyter notebook
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
-**Victor Schiavone**,
-**Juliana Bahia**,
-**Guilherme Ledier**,
-**Gisele Domingues**,
-**Alexandre Amaro**
+- Victor Schiavone
+- Juliana Bahia
+- Guilherme Ledier
+- Gisele Domingues
+- Alexandre Amaro
 
-
-Projeto desenvolvido como parte do **Tech Challenge – Fase 2** da Pós-Tech em Data Analytics da **FIAP**.
+Projeto desenvolvido como parte do **Tech Challenge – Fase 2** da Pós-Tech em **Data Analytics da FIAP**.
 
 ---
 
 # 📄 Licença
 
-Projeto desenvolvido exclusivamente para fins acadêmicos como parte do Tech Challenge – Fase 2 da FIAP, podendo também ser utilizado como material de portfólio.
+Projeto desenvolvido exclusivamente para fins acadêmicos como parte do **Tech Challenge – Fase 2** da FIAP, podendo também ser utilizado como material de estudo e portfólio profissional.
